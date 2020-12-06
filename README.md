@@ -47,5 +47,9 @@ Pandemic Status](http://corona.rickkln.com/) ([repo](https://github.com/rickkln/
 
 [Add yours +](https://github.com/rlindskog/covid19-graphql/edit/master/README.md)
 
+## Testing
+To start running tests in watch mode, use
+`yarn test --watch`
+
 ## License
 MIT Licensed. PRs welcome! :)
