@@ -1,4 +1,4 @@
-import { QueryResolvers } from "./types";
+import { Query, QueryResolvers } from "./types";
 import { ApolloError } from "apollo-server-micro";
 
 const formatDate = (d: Date) =>

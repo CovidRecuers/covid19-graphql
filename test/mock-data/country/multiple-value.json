@@ -1,0 +1,108 @@
+{
+  "US": [
+    {
+      "date": "2020-11-25",
+      "confirmed": 12772653,
+      "deaths": 262222,
+      "recovered": 4835956
+    },
+    {
+      "date": "2020-11-26",
+      "confirmed": 12883307,
+      "deaths": 263456,
+      "recovered": 4871203
+    },
+    {
+      "date": "2020-11-27",
+      "confirmed": 13088821,
+      "deaths": 264858,
+      "recovered": 4947446
+    },
+    {
+      "date": "2020-11-28",
+      "confirmed": 13244701,
+      "deaths": 266047,
+      "recovered": 5023063
+    },
+    {
+      "date": "2020-11-29",
+      "confirmed": 13383370,
+      "deaths": 266873,
+      "recovered": 5065030
+    },
+    {
+      "date": "2020-11-30",
+      "confirmed": 13541221,
+      "deaths": 268045,
+      "recovered": 5146319
+    },
+    {
+      "date": "2020-12-1",
+      "confirmed": 13721858,
+      "deaths": 270642,
+      "recovered": 5226581
+    },
+    {
+      "date": "2020-12-2",
+      "confirmed": 13921913,
+      "deaths": 273446,
+      "recovered": 5322128
+    },
+    {
+      "date": "2020-12-3",
+      "confirmed": 14139577,
+      "deaths": 276325,
+      "recovered": 5404018
+    },
+    {
+      "date": "2020-12-4",
+      "confirmed": 14367462,
+      "deaths": 278932,
+      "recovered": 5470389
+    },
+    {
+      "date": "2020-12-5",
+      "confirmed": 14581337,
+      "deaths": 281186,
+      "recovered": 5576026
+    },
+    {
+      "date": "2020-12-6",
+      "confirmed": 14757000,
+      "deaths": 282299,
+      "recovered": 5624444
+    }
+  ],
+  "France": [
+    {
+      "date": "2020-12-2",
+      "confirmed": 2297393,
+      "deaths": 53906,
+      "recovered": 171197
+    },
+    {
+      "date": "2020-12-3",
+      "confirmed": 2310271,
+      "deaths": 54231,
+      "recovered": 172574
+    },
+    {
+      "date": "2020-12-4",
+      "confirmed": 2321703,
+      "deaths": 54859,
+      "recovered": 173986
+    },
+    {
+      "date": "2020-12-5",
+      "confirmed": 2334626,
+      "deaths": 55073,
+      "recovered": 174992
+    },
+    {
+      "date": "2020-12-6",
+      "confirmed": 2345648,
+      "deaths": 55247,
+      "recovered": 175220
+    }
+  ]
+}
