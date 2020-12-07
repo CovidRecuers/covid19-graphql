@@ -1,54 +1,6 @@
 {
   "US": [
     {
-      "date": "2020-11-25",
-      "confirmed": 12772653,
-      "deaths": 262222,
-      "recovered": 4835956
-    },
-    {
-      "date": "2020-11-26",
-      "confirmed": 12883307,
-      "deaths": 263456,
-      "recovered": 4871203
-    },
-    {
-      "date": "2020-11-27",
-      "confirmed": 13088821,
-      "deaths": 264858,
-      "recovered": 4947446
-    },
-    {
-      "date": "2020-11-28",
-      "confirmed": 13244701,
-      "deaths": 266047,
-      "recovered": 5023063
-    },
-    {
-      "date": "2020-11-29",
-      "confirmed": 13383370,
-      "deaths": 266873,
-      "recovered": 5065030
-    },
-    {
-      "date": "2020-11-30",
-      "confirmed": 13541221,
-      "deaths": 268045,
-      "recovered": 5146319
-    },
-    {
-      "date": "2020-12-1",
-      "confirmed": 13721858,
-      "deaths": 270642,
-      "recovered": 5226581
-    },
-    {
-      "date": "2020-12-2",
-      "confirmed": 13921913,
-      "deaths": 273446,
-      "recovered": 5322128
-    },
-    {
       "date": "2020-12-3",
       "confirmed": 14139577,
       "deaths": 276325,
