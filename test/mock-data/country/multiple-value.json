@@ -56,5 +56,37 @@
       "deaths": 55247,
       "recovered": 175220
     }
+  ],
+  "VaticanCity" : [
+    {
+      "date": "2020-12-2",
+      "confirmed": 0,
+      "deaths": 0,
+      "recovered": 0
+    },
+    {
+      "date": "2020-12-3",
+      "confirmed": 0,
+      "deaths": 0,
+      "recovered": 0
+    },
+    {
+      "date": "2020-12-4",
+      "confirmed": 1,
+      "deaths": 0,
+      "recovered": 173986
+    },
+    {
+      "date": "2020-12-5",
+      "confirmed": 3,
+      "deaths": 0,
+      "recovered": 0
+    },
+    {
+      "date": "2020-12-6",
+      "confirmed": 3,
+      "deaths": 0,
+      "recovered": 1
+    }
   ]
 }
