@@ -1,0 +1,60 @@
+{
+  "US": [
+    {
+      "date": "2020-12-3",
+      "confirmed": 14139577,
+      "deaths": 276325,
+      "recovered": 5404018
+    },
+    {
+      "date": "2020-12-4",
+      "confirmed": 14367462,
+      "deaths": 278932,
+      "recovered": 5470389
+    },
+    {
+      "date": "2020-12-5",
+      "confirmed": 14581337,
+      "deaths": 281186,
+      "recovered": 5576026
+    },
+    {
+      "date": "2020-12-6",
+      "confirmed": 14757000,
+      "deaths": 282299,
+      "recovered": 5624444
+    }
+  ],
+  "France": [
+    {
+      "date": "2020-12-2",
+      "confirmed": 2297393,
+      "deaths": 53906,
+      "recovered": 171197
+    },
+    {
+      "date": "2020-12-3",
+      "confirmed": 2310271,
+      "deaths": 54231,
+      "recovered": 172574
+    },
+    {
+      "date": "2020-12-4",
+      "confirmed": 2321703,
+      "deaths": 54859,
+      "recovered": 173986
+    },
+    {
+      "date": "2020-12-5",
+      "confirmed": 2334626,
+      "deaths": 55073,
+      "recovered": 174992
+    },
+    {
+      "date": "2020-12-6",
+      "confirmed": 2345648,
+      "deaths": 55247,
+      "recovered": 175220
+    }
+  ]
+}

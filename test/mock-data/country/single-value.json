@@ -1,0 +1,18 @@
+{
+  "US": [
+    {
+      "date": "2020-1-22",
+      "confirmed": 1,
+      "deaths": 0,
+      "recovered": 0
+    }
+  ],
+  "France": [
+    {
+      "date": "2020-1-22",
+      "confirmed": 0,
+      "deaths": 0,
+      "recovered": 0
+    }
+  ]
+}

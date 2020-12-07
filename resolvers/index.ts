@@ -1,10 +1,10 @@
-import { Resolvers } from './types'
-import Query from './Query'
-import Result from './Result'
+import { Resolvers } from "./types";
+import { resolvers as Query } from "./Query";
+import Result from "./Result";
 
 const resolvers: Resolvers = {
   Query,
-  Result
-}
+  Result,
+};
 
-export default resolvers
+export default resolvers;
