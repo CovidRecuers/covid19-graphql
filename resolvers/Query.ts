@@ -18,8 +18,8 @@ const getGrowthRate = (index: number, results: any) => {
   );
 };
 
-const resolvers: QueryResolvers = {
-  async results(_parent, { countries, date }, { getResults }) {
+const resolvers = {
+  results: async (_parent, { countries, date }, { getResults }) => {
     const results = await getResults();
     const eq = date && date.eq ? formatDate(new Date(date.eq)) : null;
     const lt = date && date.lt ? new Date(formatDate(new Date(date.lt))) : null;
@@ -53,7 +53,7 @@ const resolvers: QueryResolvers = {
       });
     return formatted;
   },
-  async result(_parent, { country, date }, { getResults }) {
+  result: async (_parent, { country, date }, { getResults }) => {
     const results = await getResults();
     const countryResult = results[country];
     if (date) {
@@ -75,7 +75,7 @@ const resolvers: QueryResolvers = {
     return found;
   },
 
-  async countries(_parent, { names }, { getResults }) {
+  countries: async (_parent, { names }, { getResults }) => {
     const results = await getResults();
     let formatted = (names && names.length > 0
       ? names
@@ -101,7 +101,7 @@ const resolvers: QueryResolvers = {
     }, []);
     return formatted;
   },
-  async country(_parent, { name }, { getResults }) {
+  country: async (_parent, { name }, { getResults }) => {
     const data = await getResults();
     let results = data[name];
     if (!results) {
