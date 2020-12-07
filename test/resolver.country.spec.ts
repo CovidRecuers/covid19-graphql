@@ -42,7 +42,9 @@ describe("Country resolver", () => {
         { getResults: mockContext }
       );
 
-    await expect(t()).rejects.toThrow(ApolloError);
+    await expect(t()).rejects.toThrow(
+      "Couldn't find data from country Denmark"
+    );
   });
 
   it("should correctly calculate the growth rate", async () => {
