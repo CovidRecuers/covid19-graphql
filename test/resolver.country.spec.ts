@@ -47,6 +47,18 @@ describe("Country resolver", () => {
     );
   });
 
+  it("should raise error if no country is provided", async () => {
+    mockContext.mockReturnValueOnce(singleValueRes);
+    const t = async () =>
+      await resolvers.country(
+        null,
+        { name: "Denmark" },
+        { getResults: mockContext }
+      );
+
+    await expect(t()).rejects.toThrow(Error);
+  });
+
   it("should correctly calculate the growth rate", async () => {
     mockContext.mockReturnValueOnce(multipleValueRes);
     const res = await resolvers.country(

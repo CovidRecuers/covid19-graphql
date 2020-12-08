@@ -9,9 +9,9 @@ describe("Countries resolver", () => {
   it("should raise error with message 'Couldn't find data from country' if no data is provided for given country", async () => {
     mockContext.mockReturnValueOnce(singleValueRes);
     const t = async () =>
-      await resolvers.country(
+      await resolvers.countries(
         null,
-        { name: "Denmark" },
+        { names: ["Denmark"] },
         { getResults: mockContext }
       );
 
