@@ -4,7 +4,6 @@ import * as multipleValueRes from "./mock-data/country/multiple-value.json";
 import * as singleValueRes from "./mock-data/country/single-value.json";
 describe("Country resolver", () => {
   const mockContext = jest.fn();
-
   it("should call country from query API ", async () => {
     mockContext.mockReturnValueOnce(singleValueRes);
     const res = await resolvers.country(
@@ -43,7 +42,21 @@ describe("Country resolver", () => {
         { getResults: mockContext }
       );
 
-    await expect(t()).rejects.toThrow(ApolloError);
+    await expect(t()).rejects.toThrow(
+      "Couldn't find data from country Denmark"
+    );
+  });
+
+  it("should raise error if no country is provided", async () => {
+    mockContext.mockReturnValueOnce(singleValueRes);
+    const t = async () =>
+      await resolvers.country(
+        null,
+        { name: "Denmark" },
+        { getResults: mockContext }
+      );
+
+    await expect(t()).rejects.toThrow(Error);
   });
 
   it("should correctly calculate the growth rate", async () => {
