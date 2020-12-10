@@ -4,7 +4,7 @@ import * as multipleValueRes from "./mock-data/country/multiple-value.json";
 import * as singleValueRes from "./mock-data/country/single-value.json";
 import * as allData from "./mock-data/timeseries.json";
 
-describe("Result resolver", () => {
+describe("Results resolver", () => {
   const mockContext = jest.fn();
   it("should raise error with message 'Couldn't find data from country' if no data is provided for given country", async () => {
     mockContext.mockReturnValueOnce(singleValueRes);
